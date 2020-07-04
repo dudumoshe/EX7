@@ -1,0 +1,11 @@
+Save Token In Sp:
++ Faster in every launch - 1 less http request to do.
+- Most of the time, it more secured to get it from the server every time, rather then
+Keep it locally.
+
+Get the token every time from server:
++ Flexible to changes - the server can rearrange the tokens or replace method.
+- Another http request that can fail, and prevent the user from using things he already got (if the app won't get the token in the next launch it cannot provide offline service).
+
+David Moshe 203384540
+ex7_v0
